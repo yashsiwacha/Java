@@ -1,4 +1,4 @@
-package Java;
+package Java.Operations;
 
 public class ArithmeticOP {
     public static void main(String[] args) {

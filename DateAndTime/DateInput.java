@@ -3,11 +3,11 @@ package Java.DateAndTime;
 import java.util.Scanner;
 
 
-public class DateAndTimeInput {
+public class DateInput {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String date1 = sc.nextLine();
-        String[] dates1 = date1.split(":");
+        String[] dates1 = date1.split("-");
         int year1 = Integer.parseInt(dates1[2]);
         int month1 = Integer.parseInt(dates1[1]);
         int days1 = Integer.parseInt(dates1[0]);

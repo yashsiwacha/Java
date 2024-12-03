@@ -1,4 +1,4 @@
-package Java;
+package Java.Operations;
 
 public class UnaryOP {
     public static void main(String[] args) {
